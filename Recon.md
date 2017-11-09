@@ -30,13 +30,13 @@ burp-vulners-scanner - burp plugin that goes over domains in scope and extract v
 
 ## Content discovery
 
-robots disallowed https://github.com/danielmiessler/RobotsDisallowed
+robots disallowed: https://github.com/danielmiessler/RobotsDisallowed
 
-gobuster
+gobuster: https://github.com/OJ/gobuster
 
 go run main.go -u http://192.168.1.48 -m dir -f -w /Users/m4l1c3/Dev/RobotsDisallowed/Top10000-RobotsDisallowed.txt
 
-CMSmap
+CMSmap: https://github.com/Dionach/CMSmap.git
 
 dirbuster
 
