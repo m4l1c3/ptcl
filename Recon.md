@@ -26,14 +26,15 @@ eyewitness - useful for taking screenshots of a list of URLs for visual confirma
 
 ## Platform identification
 
-
 burp-vulners-scanner - burp plugin that goes over domains in scope and extract version/platform info about items that are in scope, useful for getting CVEs in an application
 
 ## Content discovery
 
-robots disallowed
+robots disallowed https://github.com/danielmiessler/RobotsDisallowed
 
 gobuster
+
+go run main.go -u http://192.168.1.48 -m dir -f -w /Users/m4l1c3/Dev/RobotsDisallowed/Top10000-RobotsDisallowed.txt
 
 CMSmap
 
